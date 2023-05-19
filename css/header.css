@@ -45,3 +45,11 @@ header {
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 400px) {
+  .header-menu {
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+}
+}
