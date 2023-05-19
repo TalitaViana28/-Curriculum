@@ -46,7 +46,7 @@ header {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .header-menu {
     display: inline-block;
     align-items: center;
