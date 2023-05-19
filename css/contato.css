@@ -1,0 +1,24 @@
+.contato-bg ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  background: var(--cor-p1);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 800px) {
+  .contato-bg ul {
+    gap: 100px;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contato-bg ul {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+  }
+}

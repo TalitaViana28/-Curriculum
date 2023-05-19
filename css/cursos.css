@@ -1,0 +1,42 @@
+.experiencia-cursos h3 {
+  margin-bottom: 15px;
+}
+
+.cursos-imagem {
+  display: flex;
+  gap: 10px;
+}
+
+.cursos-imagem img {
+  display: block;
+  margin-top: -10px;
+}
+
+.cursos-design {
+  margin-bottom: 20px;
+}
+
+.cursos-front {
+  margin-bottom: 50px;
+}
+
+.cursos-design,
+.cursos-front {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cursos-design span,
+.cursos-front span {
+  text-align: end;
+}
+
+.idiomas-imagem {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.idiomas-ingles {
+  margin-bottom: 20px;
+}

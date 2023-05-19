@@ -1,0 +1,114 @@
+.localizacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.localizacao span {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 140px;
+  position: absolute;
+  top: -110px;
+  bottom: 30px;
+  background: var(--cor-p1) url("../icones/localizar.svg") no-repeat top 90px
+    right 2px;
+}
+
+.localizacao p {
+  margin-top: -20px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.introducao-marca {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  text-align: end;
+  justify-items: end;
+}
+
+.introducao-marca .introducao-desenvolvedor li {
+  margin-bottom: -30px;
+}
+
+.introducao-desenvolvedor {
+  margin-bottom: 30px;
+}
+
+.introducao-marca img {
+  align-items: end;
+}
+
+.introducao-grupo {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 10px;
+  margin-top: -70px;
+  margin-bottom: 30px;
+  padding-bottom: -10px;
+}
+
+img .introducao-imagem {
+  max-width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .introducao-localizacao {
+    background-color: none;
+    font-size: 1rem;
+  }
+  .localizacao span {
+    background: none;
+  }
+  .introducao p {
+    grid-column: 1/-1;
+    align-items: center;
+    justify-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 4px dotted var(--cor-p1);
+    border-bottom: 4px dotted var(--cor-p1);
+  }
+  .introducao-marca img {
+    display: inline-block;
+    padding-left: 60px;
+  }
+  .introducao-grupo img {
+    display: none;
+  }
+  .introducao-desenvolvedor li {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .localizacao p {
+    margin-bottom: 30px;
+    border-top: 4px dotted var(--cor-p1);
+    border-bottom: 4px dotted var(--cor-p1);
+  }
+  .introducao-marca {
+    display: inline-block;
+  }
+  #marca {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .introducao-desenvolvedor {
+    padding-left: 150px;
+  }
+  img .introducao-imagem {
+    max-width: 100%;
+  }
+}
