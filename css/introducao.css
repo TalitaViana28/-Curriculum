@@ -117,10 +117,13 @@ img .introducao-imagem {
   .localizacao {
     margin-right: 50px;
   }
+  #marca {
+    margin-bottom: 30px;
+  }
   .introducao-marca {
-    display: block;
+    display: flex;
   }
   #marca {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
   }
 }
