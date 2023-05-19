@@ -117,13 +117,15 @@ img .introducao-imagem {
   .localizacao {
     margin-right: 50px;
   }
-  #marca {
-    margin-bottom: 30px;
-  }
   .introducao-marca {
-    display: flex;
+    display: inline-block;
   }
   #marca {
+    align-items: center;
+    justify-content: center;
     margin-bottom: 50px;
+  }
+  .introducao-desenvolvedor {
+    padding-left: 50px;
   }
 }
