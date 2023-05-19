@@ -112,3 +112,15 @@ img .introducao-imagem {
     max-width: 100%;
   }
 }
+
+@media (max-width: 400px) {
+  .localizacao {
+    margin-right: 50px;
+  }
+  .introducao-marca {
+    display: block;
+  }
+  #marca {
+    margin-bottom: 80px;
+  }
+}
